@@ -1,0 +1,37 @@
+For every standard function of c++ you'll need to add a std:: before it to properly use it.
+Examples:
+std::cout -> Printing values
+std::cin -> Receiving values
+std::string -> Use Strings
+std::endl -> Breaking Lines
+
+When OutPuting data you'll need to use << and when Inputing you'll need to use >>
+Examples:
+std::cout << "String" << Integer
+std::cin >>  Double
+
+For using these types of functions correctly you also need to include some of the C++ libraries.
+#include <LIBRARY>
+
+#include<iostrem> (Input, Output, Stream of data)
+
+
+TESTING YOU CODE
+
+g++ YourCodeFile.cpp -o NameYouWant.out
+to execute it on terminal just type NameYouWant.out
+
+Exe
+g++ YourCodeFile.cpp -o NameYouWant.exe
+
+
+Things to learn:
+
+tratamento de erros
+datas
+front end
+objetos genericos
+meta programação
+ponteiros
+listeners
+decoradores
